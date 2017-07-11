@@ -1,0 +1,106 @@
+			Dear Emacs, please make this -*-Text-*- mode!
+	**************************************************
+	*						 *
+	*	       3.2 SERIES NEWS			 *
+	*						 *
+	**************************************************
+
+		CHANGES IN R VERSION 3.2.0
+
+NEW FEATURES
+
+    o	Added the 'grayscale' color scheme.
+
+BUG FIXES
+
+    o	Made compatible with new R check steps that verify DESCRIPTION
+        and NAMESPACE dependencies.
+
+		CHANGES IN R VERSION 3.1.0
+
+ADMINSTRATION
+
+    o	Changed the LICENSE from Artistic 2.0 to Apache 2.0.
+
+		CHANGES IN R VERSION 3.0.2
+
+BUG FIXES
+
+    o	Made compatible with new R check steps that verify DESCRIPTION
+        and NAMESPACE dependencies.
+
+		CHANGES IN R VERSION 3.0.1
+
+NEW FEATURES
+
+    o	Moved generic functions from PreProcess to oompaBase,
+    	mainly to simplify the overall dependence structure 
+	by taking unused PreProcess code out of the main line.
+
+    o   Moved ColorCoding and ColorCodedPair classes from this package
+    	into the oompaBase package.
+
+BREAKING CHANGES
+
+    o	Also moved semantic color names from PreProcess to oompaBase,
+        and restructured it to add fewer entries into the namespace.
+        Instead of using 'COLOR.EXPECTED', you must now refer to
+        'oompaColors$EXPECTED'.
+
+		CHANGES IN R VERSION 3.0.0
+
+NEW FEATURES
+
+    o	Released in conjunction with new version of R.
+
+		CHANGES IN R VERSION 2.15.0
+
+NEW FEATURES
+
+    o	Released in conjunction with new version of R.
+
+		CHANGES IN R VERSION 2.14.0
+
+NEW FEATURES
+
+    o	Released in conjunction with new version of R.
+
+		CHANGES IN R VERSION 2.13.0
+
+NEW FEATURES
+
+    o	Released in conjunction with new version of R.
+
+		CHANGES IN R VERSION 2.12.0
+
+BUG FIXES
+
+    o	Fixed an error in matrixpairedT that usually resulted in
+        getting the pairing mixed up. Added a formal test suite to
+        make sure the same bug does not recur.
+
+		CHANGES IN R VERSION 2.10.1
+
+NEW FEATURES
+
+    o	Moved (duplicated) matrix mean and variance code from the
+        ClassComparison and TailRank packages into this package.
+
+    o	Moved the color functions (e..g, redgreen, jetColors) from
+    	the ClassDiscovery pacakge into this package, in order to
+    	simplify dependencies.
+
+
+		CHANGES IN R VERSION 2.10.0
+
+NEW FEATURES
+
+    o	Verified compatibility with R 2.10.0
+
+
+		CHANGES IN R VERSION 2.9.0
+
+NEW FEATURES
+
+    o	Added support for namespaces
+
