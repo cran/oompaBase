@@ -1,6 +1,6 @@
 Package: oompaBase
-Version: 3.2.5
-Date: 2017-11-20
+Version: 3.2.6
+Date: 2018-05-16
 Title: Class Unions, Matrix Operations, and Color Schemes for OOMPA
 Author: Kevin R. Coombes
 Maintainer: Kevin R. Coombes <krc@silicovore.com>
@@ -17,10 +17,7 @@ License: Apache License (== 2.0)
 LazyLoad: yes
 biocViews: Infrastructure
 URL: http://oompa.r-forge.r-project.org/
-Repository: CRAN
-Repository/R-Forge/Project: oompa
-Repository/R-Forge/Revision: 381
-Repository/R-Forge/DateTimeStamp: 2017-11-20 14:48:54
-Date/Publication: 2017-11-20 17:33:36 UTC
 NeedsCompilation: no
-Packaged: 2017-11-20 15:05:20 UTC; rforge
+Packaged: 2018-05-17 01:27:40 UTC; Kevin
+Repository: CRAN
+Date/Publication: 2018-05-17 04:01:58 UTC
