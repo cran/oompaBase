@@ -1,4 +1,4 @@
-6cfdd3cfe696f4bcb37f2fce94079c0d *DESCRIPTION
+5b070f33730fc5e0c6fcf49b76525acf *DESCRIPTION
 b56ec2e155aa353a9a3435a189d8a0fc *NAMESPACE
 5f9b5a64f081d102697782657f1a33e1 *NEWS
 e77aedae0b31a6d25295284f72da452f *R/b00-classunions.R
@@ -6,10 +6,10 @@ cb0e1ccde51c428e661e41b9740f5207 *R/b01-generics.R
 49414bf550faff6d604087e4310c115b *R/b02-colorSchemes.R
 d9da7182fc75005a334185de937099df *R/b02-colors.R
 87291ae8a07db55f031af14ecc9b3fba *R/b03-matrixOps.R
-5e2d2ed9e441e8980d0911a096e59177 *build/vignette.rds
+e25eccc2a7d0b8a0e9885a501a988420 *build/vignette.rds
 0fa22a20ff59acc53f7b13b313c03812 *inst/doc/oompa.R
 4e68ca36ffb52980f3e08195297ce203 *inst/doc/oompa.Rnw
-569f51a49102f2db4b23ddaa7536ccdb *inst/doc/oompa.pdf
+b117a57a0bb27bf57e7e68286451d0c1 *inst/doc/oompa.pdf
 6cbbab075f8b7c85d2092725a42aefbd *man/b02-0-ColorCoding-class.Rd
 938e66e61105492bfd2c649104ecb989 *man/b02-1-ColorCodedPair-class.Rd
 63727e9408beedd863ea3e7c091d2f1c *man/numnull.Rd
@@ -18,6 +18,6 @@ cc17566e8f084d7ac982b439ca81bbc7 *man/z02-2-semanticColors.Rd
 7fd75f005f31738cd4a3ebe728513cc8 *man/z02-colorSchemes.Rd
 9e1165a5a718358ef50dbca508600395 *tests/test02-colors.R
 c53e4d2eff9e077ef482acae105de55d *tests/test02-colors.Rout.save
-83e1eb285eeebc5f8a0a17d4b2de1f7d *tests/testMatrixOps.R
-1fe51aa5d3bd22c9df7a76ba22706d93 *tests/testMatrixOps.Rout.save
+a513d2bdbad8e6ae7f7b7bfcfffe0bae *tests/testMatrixOps.R
+6b8b6ac0dd456375d3f11b4660e14dcc *tests/testMatrixOps.Rout.save
 4e68ca36ffb52980f3e08195297ce203 *vignettes/oompa.Rnw
