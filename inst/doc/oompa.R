@@ -16,10 +16,12 @@ mat <- matrix(1:1024, ncol=1)
 ### code chunk number 3: figmaker (eval = FALSE)
 ###################################################
 ## # windows(width=6,height=8)
-## opar <- par(mfrow=c(6, 1), mai=c(0.3, 0.5, 0.2, 0.2))
-## image(mat, col=redgreen(64), main='redgreen')
+## opar <- par(mfrow=c(8, 1), mai=c(0.3, 0.5, 0.2, 0.2))
 ## image(mat, col=jetColors(128), main='jetColors')
+## image(mat, col=wheel(64, 0.5), main='wheel, half saturation')
+## image(mat, col=redgreen(64), main='redgreen')
 ## image(mat, col=blueyellow(32), main='blueyellow')
+## image(mat, col=cyanyellow(32), main='cyanyellow')
 ## image(mat, col=redscale(64), main='redscale')
 ## image(mat, col=bluescale(64), main='bluescale')
 ## image(mat, col=greyscale(64), main='greyscale')
@@ -27,13 +29,15 @@ mat <- matrix(1:1024, ncol=1)
 
 
 ###################################################
-### code chunk number 4: oompa.Rnw:66-67
+### code chunk number 4: oompa.Rnw:68-69
 ###################################################
 # windows(width=6,height=8)
-opar <- par(mfrow=c(6, 1), mai=c(0.3, 0.5, 0.2, 0.2))
-image(mat, col=redgreen(64), main='redgreen')
+opar <- par(mfrow=c(8, 1), mai=c(0.3, 0.5, 0.2, 0.2))
 image(mat, col=jetColors(128), main='jetColors')
+image(mat, col=wheel(64, 0.5), main='wheel, half saturation')
+image(mat, col=redgreen(64), main='redgreen')
 image(mat, col=blueyellow(32), main='blueyellow')
+image(mat, col=cyanyellow(32), main='cyanyellow')
 image(mat, col=redscale(64), main='redscale')
 image(mat, col=bluescale(64), main='bluescale')
 image(mat, col=greyscale(64), main='greyscale')
@@ -125,13 +129,13 @@ t2 <- proc.time()
 
 
 ###################################################
-### code chunk number 16: oompa.Rnw:150-151
+### code chunk number 16: oompa.Rnw:152-153
 ###################################################
 summary(as.vector(tt - myT))
 
 
 ###################################################
-### code chunk number 17: oompa.Rnw:153-155
+### code chunk number 17: oompa.Rnw:155-157
 ###################################################
 t1 - t0
 t2 - t1
