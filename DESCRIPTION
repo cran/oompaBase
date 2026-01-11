@@ -1,6 +1,6 @@
 Package: oompaBase
-Version: 3.2.10
-Date: 2025-04-03
+Version: 3.2.11
+Date: 2026-01-09
 Title: Class Unions, Matrix Operations, and Color Schemes for OOMPA
 Authors@R: person(given = c("Kevin", "R."),
                   family = "Coombes",
@@ -20,8 +20,8 @@ LazyLoad: yes
 biocViews: Infrastructure
 URL: http://oompa.r-forge.r-project.org/
 NeedsCompilation: no
-Packaged: 2025-04-03 12:03:20 UTC; kevin
+Packaged: 2026-01-09 22:18:04 UTC; KRC
 Author: Kevin R. Coombes [aut, cre]
 Maintainer: Kevin R. Coombes <krc@silicovore.com>
 Repository: CRAN
-Date/Publication: 2025-04-03 13:30:02 UTC
+Date/Publication: 2026-01-11 06:11:00 UTC
